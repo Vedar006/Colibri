@@ -6,7 +6,19 @@
   &__container {
     padding-top: 30px;
     display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+  }
+
+  &__row {
+    display: flex;
     align-items: center;
+
+    &--gap {
+      gap: 190px;
+
+    }
 
   }
 
@@ -31,7 +43,7 @@
   }
 
   &__input {
-    margin-right: 60px;
+    margin-right: 115px;
     padding: 0 15px 5px 20px;
     width: 443px;
     height: 49px;
@@ -59,8 +71,11 @@
     justify-content: space-between;
   }
 
+
   &__item {
     cursor: pointer;
+
+
 
     &:hover {
       color: var(--pink-color);
@@ -76,6 +91,80 @@
       &:hover {
         fill: var(--pink-color);
       }
+    }
+  }
+
+  &__categories-items {
+    display: flex;
+    gap: 40px;
+
+
+  }
+ &__categories {
+  margin-right: 30px;
+ }
+  &__categories-item {
+    a {
+      font-size: 18px;
+    }
+
+    a:hover {
+      color: var(--pink-color);
+    }
+  }
+
+
+
+  &__contact {
+    display: flex;
+  }
+
+  &__socials {
+    margin-right: 40px;
+    display: flex;
+    gap: 20px;
+
+    svg {
+      fill: black;
+    }
+
+    svg:hover {
+      fill: var(--pink-color);
+    }
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    margin-right: 26px;
+    font-size: 16px;
+
+    &:hover {
+      color: var(--pink-color);
+    }
+
+    &::before {
+      content: "";
+      margin-right: 5px;
+      width: 10px;
+      height: 10px;
+      background-image: url("../img/header/arrow.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &__work {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+
+    &-item {
+      font-weight: 500;
+      font-size: 12px;
+
+
     }
   }
 }
