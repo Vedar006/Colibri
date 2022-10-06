@@ -3,7 +3,10 @@
 @import "mixins";
 @import "fonts";
 @import "settings";
-
 // подключения компонентов страницы
 @import "./components/header";
 @import "./components/sale";
+@import "./components/catigories";
+@import "./components/leaders";
+// малые компоненты
+@import "./components/section__title";

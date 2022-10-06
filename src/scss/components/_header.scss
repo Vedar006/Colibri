@@ -100,9 +100,11 @@
 
 
   }
- &__categories {
-  margin-right: 30px;
- }
+
+  &__categories {
+    margin-right: 30px;
+  }
+
   &__categories-item {
     a {
       font-size: 18px;
@@ -148,9 +150,11 @@
       margin-right: 5px;
       width: 10px;
       height: 10px;
-      background-image: url("../img/header/arrow.svg");
+      background-image: url(../img/header/arrow.svg);
       background-repeat: no-repeat;
       background-position: center;
+      background-size: cover;
+      transform: translateY(-2px);
     }
   }
 
