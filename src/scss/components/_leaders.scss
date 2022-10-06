@@ -1,0 +1,62 @@
+.leaders {
+  &__items {
+    padding-top: 10px;
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 319px;
+    height: 387px;
+
+    &-img {
+      width: 323px;
+      height: 277px;
+      border-radius: 15px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+      }
+    }
+
+    &-price {
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 130%;
+      /* identical to box height, or 39px */
+
+      letter-spacing: 0.03em;
+
+      color: #000000;
+
+      del {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        /* identical to box height, or 26px */
+
+        letter-spacing: 0.03em;
+        text-decoration-line: line-through;
+
+        color: #8B8B8B;
+      }
+
+      span {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        /* identical to box height, or 26px */
+
+        letter-spacing: 0.03em;
+
+        color: #FF32A1;
+      }
+    }
+    &-descr {
+      margin-top: 5px;
+    }
+  }
+}

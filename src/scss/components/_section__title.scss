@@ -1,0 +1,38 @@
+.section__title {
+  &-name {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+  }
+
+  &-btn {
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 5px;
+      right: 0;
+      left: 105px;
+      width: 10px;
+      height: 10px;
+      background-image: url(../img/catigories/cat__arrow.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
