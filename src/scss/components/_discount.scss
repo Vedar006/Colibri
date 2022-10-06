@@ -1,0 +1,68 @@
+.discount {
+  height: 475px;
+  margin-bottom: 40px;
+
+
+
+  &__container {
+    height: 100%;
+    background: linear-gradient(262.69deg, #CA4ACB -0.43%, #F088F2 104.36%);
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    /* or 108px */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+    span {
+      font-size: 90px;
+    }
+  }
+
+  &__input {
+    margin-top: 30px;
+    width: 472px;
+    height: 75px;
+    background-color: #fff;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      width: 380px;
+      height: 46px;
+      outline: 0;
+      outline-offset: 0;
+    }
+  }
+
+  &__btn {
+    margin-top: 30px;
+    width: 472px;
+    height: 75px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 21px;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+
+}
