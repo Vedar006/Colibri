@@ -73,17 +73,17 @@
 
 
   &__item {
-    cursor: pointer;
+    a {
+      color: #000;
+    }
 
-
-
-    &:hover {
+    a:hover {
       color: var(--pink-color);
     }
   }
 
   &__basket {
-    cursor: pointer;
+
 
     svg {
       fill: black;
@@ -107,6 +107,7 @@
 
   &__categories-item {
     a {
+      color: #000;
       font-size: 18px;
     }
 
@@ -136,6 +137,7 @@
   }
 
   &__phone {
+    color: #000;
     display: flex;
     align-items: center;
     margin-right: 26px;

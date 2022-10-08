@@ -1,0 +1,33 @@
+.works {
+  min-height: 480px;
+
+  &__slider {
+    margin-top: 30px;
+    position: relative;
+
+    &-wrapper {
+      overflow: hidden;
+    }
+
+
+
+    &-inner {
+      // transform: translateX(-100px);
+      display: flex;
+      gap: 25px;
+    }
+
+  }
+
+  &__slide {
+    width: 400px;
+    height: 400px;
+
+    img {
+      max-width: none;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+
+}
