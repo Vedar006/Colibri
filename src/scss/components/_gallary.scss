@@ -1,0 +1,12 @@
+.gallary {
+  &__container {
+    padding-top: 52px;
+  }
+
+  &__items {
+    padding-top: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+  }
+}

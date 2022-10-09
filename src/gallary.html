@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+      <section class="gallary">
+        <div class="container gallary__container">
+
+          <div class="breadcrumbs">
+            <span>Галерея</span>
+            <ul class="breadcrumbs__items list-reset">
+              <li class="breadcrumbs__item">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="gallary.html">Галерея</a>
+              </li>
+
+              </li>
+
+            </ul>
+
+          </div>
+          <ul class="gallary__items list-reset">
+            <li class="gallary__item">
+              <div class="gallary__item-img">
+                <img src="img/gallary/gallary_item1.jpg" alt="">
+              </div>
+            </li>
+            <li class="gallary__item">
+              <div class="gallary__item-img">
+                <img src="img/gallary/gallary_item1.jpg" alt="">
+              </div>
+            </li>
+            <li class="gallary__item">
+              <div class="gallary__item-img">
+                <img src="img/gallary/gallary_item1.jpg" alt="">
+              </div>
+            </li>
+            <li class="gallary__item">
+              <div class="gallary__item-img">
+                <img src="img/gallary/gallary_item1.jpg" alt="">
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </main>
+
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+
+      <section class="basket">
+        <div class="container basket__container">
+          <div class="basket__column">
+            <div class="basket__bread">
+              <div class="breadcrumbs">
+                <span>Корзина</span>
+                <ul class="breadcrumbs__items list-reset">
+                  <li class="breadcrumbs__item">
+                    <a href="index.html">Главная</a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                    <a href="basket.html">Корзина</a>
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+              <a class="basket__link" href="#">Вернуться в магазин <svg width="15" height="15" viewBox="0 0 15 15"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.49604 1.19766C4.37416 1.19766 4.26518 1.27149 4.2183 1.38399C4.1726 1.49766 4.19955 1.62657 4.28744 1.71212L10.0753 7.50001L4.28744 13.2879C4.20893 13.3629 4.17729 13.4754 4.20541 13.5797C4.23237 13.6852 4.3144 13.7672 4.41987 13.7941C4.52416 13.8223 4.63666 13.7906 4.71166 13.7121L10.7117 7.71212C10.8289 7.59493 10.8289 7.40508 10.7117 7.2879L4.71166 1.2879C4.65541 1.2293 4.57807 1.19766 4.49604 1.19766Z"
+                    fill="black" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="basket__column"></div>
+        </div>
+      </section>
+    </main>
+
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
