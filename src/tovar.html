@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+
+
+      <section class="tovar">
+        <div class="container tovar__container">
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__items list-reset">
+              <li class="breadcrumbs__item">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="catalog.html">Каталог</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="products.html">Готовые композиции</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="tovar.html">Композиция шаров на день рождения</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="tovar__item">
+            <div class="tovar__item-column">
+              <span class="tovar__item-title">Композиция шаров на день рождения</span>
+              <div class="tovar__item-img">
+                <img src="img/leaders/leaders__item-img.jpg" alt="">
+              </div>
+            </div>
+            <div class="tovar__item-column">
+              <div class="tovar__item-info">
+                <div class="leaders__item-price tovar__item-price">
+                  1450p
+                  <del>1540p</del>
+                  <span>-7%</span>
+                </div>
+                <button class="tovar__item-btn btn-reset">
+                  <a href="#">В корзину</a>
+                </button>
+                <div class="tovar__item-descr">
+                  Состав:
+                  <span>Шар латоксный - 2 шт</span>
+                  <span>Шар 3D - 1 шт</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
